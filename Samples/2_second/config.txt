@@ -1,0 +1,16 @@
+wyspianski#output namefile
+D:\dev\dev2\morph_pro\Morph\Samples\2_second\tmp#working directory
+C:\Program Files (x86)\WinFF\ffmpeg.exe#path to avconv
+500#output width
+500#output height
+D:\dev\dev2\morph_pro\Morph\Samples\2_second\image_a.png#path to img1
+D:\dev\dev2\morph_pro\Morph\Samples\2_second\image_b.png#path to img1
+0 0#position of img1
+0 0#position of img2
+1 1#scale of img1
+1 1#scale of img2
+0#rotation of img1
+0#rotation of img2
+5#duration of animation
+30#frames per second
+0

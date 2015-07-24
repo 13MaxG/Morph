@@ -1,0 +1,20 @@
+Issues:
+- line isnt accepted when first released was key(A or s) instead of mouse button
+- black dots while animation is at 0% and 100%
+
+Ideas:
+- Instant render, no editor mode
+- Brush tool - one click but with radius
+- modifing parameters of tools(radius of circle, or width of "line")
+- cpu version of Kernel
+- fullscreen option loaded from configuration file
+- Render one image
+- Editing current group of points. [ Select, Move, Repleace, Delete]
+- Parameter (lenth in pixel per one point). Possible to change while editing
+- Change (lenth in pixel per one point) for current points (HARD)
+- Simple adjusting images in editor. (change position, scale or angle of source images)
+
+Todo:
+- remove totalSize from KeysGroup (not used anywhere sice implemented Undo option)
+- load path to configuration from parameter
+- Friendly signalize of errors(cannot use gpu, cannot load file, etc.)

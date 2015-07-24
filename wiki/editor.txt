@@ -1,0 +1,37 @@
+View mode:
+- no key is pressed
+- horizontal position of mouse says the % of morphing while drawing
+- space key: save configuration
+- enter: render video
+
+Edit mode:
+- when A or S key is pressed. (A for initial image, B for final one)
+- possible to draw lines with mouse. After each drawn line on one image, editor waits for line on second image
+- z key: undo
+- y key: redo
+- p key: toggle fullscreen
+
+Configuration file: 
+contains all informations about project. You cant create configuration file in editor, you can only edit them.
+structure of configuration file:
+[string] # output name file
+[string] # path to working directory
+[string] # path to avconv(required to render videos)
+[unsigned int] # width of output image/video
+[unsigned int] # height of output image/video
+[string] # path to initial image
+[string]# path to final image
+[double] [double] # translation of initial image
+[double] [double] # translation of final image
+[double] [double] # scale of initial image
+[double] [double] # scale of final image
+[double] # duration of animation( in seconds)
+[double] # frames per second
+[unsigned int] # number of groups
+...
+[unsigned int] # number of elemts in i-th group
+...
+[double] [double] [double] [double] # j-th element in i-th group. Reprezents two point. One on initial image, second on final image. During animation current point will linear float between these points
+...
+...
+
